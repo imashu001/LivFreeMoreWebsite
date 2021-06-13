@@ -1,0 +1,52 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+/* Navigations */
+.nav{
+  background-color: rgb(158, 204, 112);
+}
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: rgb(158, 204, 112);
+}
+.nav-things{
+  display: flex;
+  align-items: center;
+}
+.nav-things:hover {
+  cursor: pointer;
+  background-color: chocolate;
+}
+.nav-things:active {
+  background-color: chocolate;
+}
+/* Navigations */
+/* Contact  and footer*/
+.contact-main{
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+}
+.contact-content{
+  letter-spacing: 4px;
+}
+.disclaimer{
+  padding: 10px;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+}
+
+/* Contact  and footer*/
